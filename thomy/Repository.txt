@@ -1,0 +1,17 @@
+Pengertian Repository
+
+Repository adalah sebuah wadah penyimpanan yang memerlukan sinkronisasi untuk pembagian data
+dalam pembagian data dan pertukaran data diperlukan konsep pull dan push, nah apasih push dan pull itu
+
+jadi, push merupakan proses pengiriman data ke ropository ataupun penyimpanan online
+sedangkan pull merupakan proses pengambilan data ke repository ataupun penyimpanan online
+
+dalam hal ini bisa dicontohkan pull dan push sebagai berikut
+Misalkan ada suatu projetct yang semua datanya di letakkan di repository ataupun penyimpanan online,
+dan yang mengerjakan project tersebut 2 orang yang sebut saja si A dan si berikut
+jika si A ingin mengerjakan suatu file project maka yang dilakukan dahulu adalah pull ke repository untuk sinkronisasi data terlebih dahulu
+setelah selesai maka si A harus push kembali datanya agar terupdate di repository
+Begitu juga dengan si B yang harus pull dahulu file yang telah di kerjakan si A untuk bisa menambakan perubahan pada file project agar tersinkronisasi dengan data si A terlebih dahulu
+setelah selesai si B akan push kembali datanya agar terupdate ke data terbaru
+
+dapat disimpulkan penggunaan repository membutuhkan komunikasi yang baik antar pengguna untuk melakukan pertukaran file yang baik
