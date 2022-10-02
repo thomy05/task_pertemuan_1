@@ -1,0 +1,12 @@
+
+IDE 
+Integrated Development Environment adalah program komputer atau 
+environtment pengembangan aplikasi atau program komputer yang memiliki 
+beberapa fitur yang diperlukan dalam pembangunan aplikasi
+
+Kenapa disebut IDE
+karena memiliki beberapa fitur yang diperlukan dalam pembangunan aplikasi
+
+
+Kenapa gak pakai editor biasa
+IDE memiliki beberapa fitur yang memudahkan pengembangan aplikasi
