@@ -1,0 +1,16 @@
+MERGE DAN KONFLIK 
+Task done by: Noninu
+
+Merge adalah perintah dalam repository untuk menyatukan beberapa data yang terpisah atau bercabang dalam tiap komputer dan user yang berbeda agar sama menjadi suatu kumpulan data yang sinkron kembali dengan perintah pull dan push pada repository.
+
+Saat melakukan command merge, bisa terjadi konflik. Konflik terjadi apabila komputer A dan komputer B melakukan pull data X, di saat yang bersamaan mereka mengubah isi/konten data X, Kemudian komputer A melakukan push data tanpa sepengetahuan komputer B. Saat komputer B melakukan push data tanpa melakukan pull dahulu dari data yang telah diupdate komputer A, disini terjadi konflik data X.
+
+Saat terjadi konflik,  merging akan gagal dilakukan. Repository akan memberi peringatan dan menunjukkan perbedaan data yang diubah. Dapat dilakukan beberapa command (resolve) agar data X bisa diubah menjadi sesuai kembali (1 data)
+- Membatalkan perubahan dari komputer B kemudian mem-pull perubahan dari komputer A (keep theirs)
+- Menghapus perubahan dari komputer (re-base) data kembali ke asal sebelum konflik terjadi, lalu mem-push komputer B (keep yours)
+- Menyatukan kedua perubahan tersebut (keep both)
+- Membatalkan perubahan dari kedua komputer A dan B lalu mengembalikan repository dalam keadaan sebelum komputer A melakukan push (remove both)
+
+* Untuk menghindari terjadinya konflik, sebaiknya tim melakukan komunikasi dengan baik
+* Selalu lakukan pull sebelum melakukan push untuk meminimalkan kemungkinan konflik
+* Lakukan perubahan dalam porsi kecil dan sedikit demi sedikit untuk menghindari konflik data yang besar
