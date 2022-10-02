@@ -1,0 +1,16 @@
+git adalah alat/tools gratis yang digunakan untuk mengembangkan software secara bersama sama/team dan
+untuk memudahkan memprogram suatu website dengan cepat dan saling terintegrasi
+jika repository itu sebuah wadah, git itu merupakan sebuah alat
+
+clone adalah sebuah perintah dari git yang fungsinya menyalin file dari repository
+jadi perintahnya git clone https://github.com/thomy05/task_pertemuan_1
+
+ngepull itu mengupdate kerjaan dari central ke komputer agar menjadi versi yang sama 
+ngepush itu mengupdate kerjaan terbaru atau mengunggah hasil akhir dari komputer ke central 
+
+jadi urutannya ada baiknya kita ngepull dahulu agar tidak terjadi komplik/kesalahan dan versinya menjadi sama dengan data dicentral
+kemudian kita ngepush data agar mengupdate data/kerjaan dari kita
+kemudian data yang kita punya dimasukkan ke staged changes 
+kemudian kita commit agar repository mencatat perubahan yang sudah kita kerjakan
+
+nah ini aku mau nanya dhal jadi push, pull, commit itu termasuk dari perintah git kah seperti clone diatas ?
